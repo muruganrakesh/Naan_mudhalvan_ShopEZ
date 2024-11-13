@@ -1,0 +1,91 @@
+.admin-page {
+    background-color: #2b2f36;
+    height: 100vh;
+    width: 100%;
+    padding-top: 12vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.admin-home-card {
+    color: #e0e4e9;
+    text-align: center;
+    background-color: #22262b;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3vh 0;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.admin-home-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.admin-home-card button {
+    border: 1.5px solid #ff8a3a;
+    background-color: transparent;
+    color: #ff8a3a;
+    padding: 6px 28px;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.admin-home-card button:hover {
+    background-color: #ff8a3a;
+    color: #ffffff;
+}
+
+.admin-banner-input {
+    width: 40vw;
+    padding: 3vh 2.5vw;
+    background-color: #22262b;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.admin-banner-input h5 {
+    color: #d1d5db;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.admin-banner-input input {
+    background-color: #1a1e23;
+    color: #d1d5db;
+    border: 1px solid #5f6368;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.admin-banner-input input:focus {
+    border-color: #ff8a3a;
+    outline: none;
+}
+
+.admin-banner-input button {
+    border: 1.5px solid #ff8a3a;
+    background-color: transparent;
+    color: #ff8a3a;
+    padding: 8px 30px;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block;
+    margin: 2rem auto 0;
+}
+
+.admin-banner-input button:hover {
+    background-color: #3aff51;
+    color: #ffffff;
+}

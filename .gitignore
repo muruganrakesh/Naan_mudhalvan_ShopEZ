@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS and editor specific
+.DS_Store
+Thumbs.db
+*.swp
+.sass-cache/
+.vscode/
+.idea/
+*.iml
+
+# Build files
+dist/
+build/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Client (React) specific
+client/node_modules
+client/.next
+client/.cache
+client/build
+client/.env
+
+# Server specific
+server/node_modules
+server/dist
+server/.env
